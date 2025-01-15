@@ -1,0 +1,220 @@
+/* External CSS for The Fascinating World of Octopuses Website */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0e8f0;
+    color: #004d66;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+/* Header Section */
+#header {
+    background: linear-gradient(to right, #007799, #0099bb);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: Georgia, serif;
+    white-space: nowrap;
+}
+
+#header p {
+    font-style: italic;
+    text-align: left;
+    align-self: flex-start;
+}
+
+/* Main Content Styling */
+#main-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2, h3 {
+    font-family: Georgia, serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #99ccdd;
+    width: 150px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #004d66;
+}
+
+ul {
+    list-style-type: disc;
+    color: #66aacc;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: #004d66;
+    margin-left: 20px;
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    margin-left: 20px;
+}
+
+/* Highlighting important terms */
+.important {
+    background-color: #b0dfe5;
+    padding: 2px 5px;
+    border-radius: 0;
+}
+
+/* Quiz Section Styling */
+#quiz-section {
+    background-color: #88c0d0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+}
+
+/* Adjusting the left side (title and image) */
+#quiz-section h2 {
+    align-self: flex-start;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+#quiz-section img {
+    border: 2px solid purple;
+    border-radius: 0;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+
+/* Adjusting the right side (questions and inputs) */
+#quiz-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+}
+
+#quiz-section label {
+    margin-top: 10px;
+    text-align: right;
+}
+
+#quiz-section input[type="text"] {
+    border: 1px solid #004d66;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#quiz-section input[type="submit"] {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+#quiz-section input[type="submit"]:hover {
+    background-color: #004d66;
+}
+
+/* Table Styling */
+#species-table {
+    margin: 20px;
+    padding: 20px;
+    background-color: #c0e8f0;
+    border-radius: 15px;
+}
+
+#species-table h2 {
+    font-family: Georgia, serif;
+    border-bottom: 2px solid #99ccdd;
+    width: 150px;
+    padding-bottom: 5px;
+    white-space: nowrap;
+}
+
+#species-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#species-table th, td {
+    border: 1px solid #004d66;
+    padding: 10px;
+}
+
+#species-table th {
+    background-color: #a3a3a3;
+    color:white;
+    text-align: left;
+}
+
+#species-table tr:nth-child(2) {
+    background-color: #c0e8f0;
+}
+
+#species-table tr:nth-child(3) {
+    background-color: white;
+}
+
+/* Footer Styling */
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #006699;
+    color: white;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+#footer p {
+    margin: 0;
+    text-align: center;
+}
+
+/* Link Styling */
+a {
+    color: #005580;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
